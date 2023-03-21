@@ -1,5 +1,6 @@
 *{
     font-family: 'Ubuntu', sans-serif;
+    
 }
 /* NAVBAR */
 #title{
@@ -41,6 +42,25 @@
 }
 .sectionwords h1{
     font-size: calc(2.5em);
+}
+
+/* Testimonios */
+.testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.testimonials h2 {
+    color: black;
+}
+
+.testimonialsImg {
+    border-radius: 30%;
+    width: 15%;
+    margin: 20px;
 }
 
 /* Footer */
