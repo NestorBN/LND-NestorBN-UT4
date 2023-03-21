@@ -1,11 +1,16 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+/* NAVBAR */
 #title{
     background-color:#191825; 
 }
-
 #nameapp {
     font-size: calc(2.5em);
     color:#FFA3FD;
 }
+
+/* Icons NAVBAR */
 .iconnavbar{
     color:#FFA3FD;
     padding-right: 3px;
@@ -13,3 +18,35 @@
 .iconnavbar:hover{
     color:#da79d8;
 }
+
+/* Buttons */
+.wherebutton{
+    background-color:#E384FF ;
+    color: #191825;;
+    text-align: center;
+}
+.wherebutton:hover{
+    background-color:#da79d8;
+}
+.section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    background-color:#FFA3FD;
+}
+.sectionwords{
+    text-align: center;
+}
+.sectionwords h1{
+    font-size: calc(2.5em);
+}
+
+/* Footer */
+.pieDpagina{
+    background-color:#191825;
+    color:#FFA3FD;
+}
+
+
