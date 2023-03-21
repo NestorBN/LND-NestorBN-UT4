@@ -1,4 +1,15 @@
 #title{
-    background-color:#191825;
-    color:#865DFF;
+    background-color:#191825; 
+}
+
+#nameapp {
+    font-size: calc(2.5em);
+    color:#FFA3FD;
+}
+.iconnavbar{
+    color:#FFA3FD;
+    padding-right: 3px;
+}
+.iconnavbar:hover{
+    color:#da79d8;
 }
