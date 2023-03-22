@@ -2,6 +2,10 @@
     font-family: 'Ubuntu', sans-serif;
     
 }
+header {
+    width: 100%;
+    position:fixed;
+}
 /* NAVBAR */
 #title{
     background-color:#191825; 
@@ -63,10 +67,35 @@
     margin: 20px;
 }
 
+/* Modalidad Suscripción */
+.ModalidadSus {
+    text-align: center;
+    width: 10%;
+}
+
+.ModalidadSus h1 {
+    padding-top: 2%;
+    
+}
+
+/* Cards */
+.card {
+    text-align: center;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:#E384FF ;
+    border:solid 2px black;
+    max-width: 18rem;
+}
+.ocard{
+    padding-bottom: 4%;
+}
 /* Footer */
 .pieDpagina{
-    background-color:#191825;
-    color:#FFA3FD;
+    background-color: #ef8172;
+    color: white;
 }
+
 
 
