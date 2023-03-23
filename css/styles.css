@@ -1,57 +1,75 @@
-*{
+body {
     font-family: 'Ubuntu', sans-serif;
-    
+
 }
+
 header {
     width: 100%;
-    position:fixed;
+    position: fixed;
 }
+
+.divseparador {
+    height: 86px;
+}
+
 /* NAVBAR */
-#title{
-    background-color:#191825; 
+#title {
+    background-color: #191825;
 }
+
 #nameapp {
     font-size: calc(2.5em);
-    color:#FFA3FD;
+    /* color: #FFA3FD; */
+    background: linear-gradient(180deg, #E384FF 50%, #9470ff,#8a63ff );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #E384FF;  
 }
 
 /* Icons NAVBAR */
-.iconnavbar{
-    color:#FFA3FD;
+.iconnavbar {
+    color: #FFA3FD;
     padding-right: 3px;
 }
-.iconnavbar:hover{
-    color:#da79d8;
+
+.iconnavbar:hover {
+    color: #da79d8;
 }
 
 /* Buttons */
-.wherebutton{
-    background-color:#E384FF ;
-    color: #191825;;
+.wherebutton {
+    background: linear-gradient(180deg, #191825 0%, #9470ff 49%, #865DFF 50%, #191825 100%);
+    background-size: 1px 100px;
+    transition: all .3s;
+    color: #E384FF;
     text-align: center;
 }
-.wherebutton:hover{
-    background-color:#da79d8;
-}
-.section1{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+
+/* .wherebutton:hover {
+    background: linear-gradient(180deg, #E384FF 0%, #9470ff 49%, #865DFF 50%, #191825 100%);
+    background-size: 1px 100px;
+    transition: all .3s;
+} */
+
+.section1 {
+    text-align: center;
     padding: 5%;
-    background-color:#FFA3FD;
+    background-color: #FFA3FD;
 }
-.sectionwords{
+
+.sectionwords {
     text-align: center;
 }
-.sectionwords h1{
+
+.sectionwords h1 {
     font-size: calc(2.5em);
 }
+
 
 /* Testimonios */
 .testimonials {
     text-align: center;
-    background-color: #ef8172;
+    background-color: #E384FF;
     color: #fff;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -67,6 +85,12 @@ header {
     margin: 20px;
 }
 
+/* Carrusel */
+.carrusel {
+    border: 5px groove #191825;
+    margin: 5% 2% 5% 2%;
+}
+
 /* Modalidad Suscripción */
 .ModalidadSus {
     text-align: center;
@@ -75,7 +99,7 @@ header {
 
 .ModalidadSus h1 {
     padding-top: 2%;
-    
+
 }
 
 /* Cards */
@@ -84,18 +108,28 @@ header {
     margin-top: 10%;
     margin-right: auto;
     margin-left: auto;
-    background-color:#E384FF ;
-    border:solid 2px black;
+    background-color: #E384FF;
+    border: 5px ridge #191825;
     max-width: 18rem;
 }
-.ocard{
-    padding-bottom: 4%;
+.cardborder{
+    border-bottom: 5px ridge #191825;
+}
+
+.cardbutton {
+    /* background:radial-gradient(center center, ellipse, #E384FF 25%, #865DFF 66%, #191825 96%); */
+    background: linear-gradient(180deg, #E384FF 0%, #9470ff 49%, #865DFF 50%, #191825 100%);
+    background-size: 1px 100px;
+    transition: all .3s;
+    border-radius: 10%;
+}
+.cardbutton:hover{
+    background-position: 0 -50px;
+    transition: all .3s;
 }
 /* Footer */
-.pieDpagina{
-    background-color: #ef8172;
+.pieDpagina {
+    margin-top: 5%;
+    background-color: #191825;
     color: white;
 }
-
-
-
