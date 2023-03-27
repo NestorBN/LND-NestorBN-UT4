@@ -90,7 +90,29 @@ header {
     margin: 5% 2% 5% 2%;
 }
 
+/************************************************************************/
+/* HTML Sobre Nosotros */
+.sectionsSN {
+    margin: 4% 2% 4% 2%;
+    background-color: #FFA3FD;
+    border: 5px dashed #191825;
+    text-align: center;
+}
 
+.sectionsSN h1 {
+    padding-top: 1%;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.sectionsSN p {
+    padding: 1%;
+}
+
+/* END of HTML Sobre Nosotros */
+
+
+/************************************************************************/
 /* HTML PRECIOS */
 /* Cards */
 .card {
@@ -102,17 +124,18 @@ header {
     border: 5px ridge #191825;
     max-width: 18rem;
 }
-.card-body{
-    border: 5px ridge #191825;
-}
-.cardborder {
-    color: #FFA3FD;
-    background: radial-gradient( #191825 12% , #E384FF 60%, #FFA3FD 70%);
 
+.card-body {
+    border: 5px ridge #191825;
+    background-color: #FFA3FD;
+}
+
+.cardborder {
+    color: #191825;
 }
 
 .cardbutton {
-    background: radial-gradient( #FFA3FD 13%, #E384FF 50%, #865DFF 90%);
+    background: radial-gradient(#FFA3FD 13%, #E384FF 50%, #865DFF 90%);
     background-size: 1px 100px;
     transition: all .3s;
     border-radius: 5%;
@@ -122,11 +145,28 @@ header {
     background-position: 0 -50px;
     transition: all .3s;
 }
+
 /* END of HTML PRECIOS */
 
+/************************************************************************/
 /* Footer */
 .pieDpagina {
     margin-top: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-color: #191825;
+    color: white;
+}
+
+footer img {
+    border-radius: 10%;
+}
+
+.textfoot {
+    color: white;
+}
+
+.textfoot:hover {
+    transform: scale(1.1);
     color: white;
 }
