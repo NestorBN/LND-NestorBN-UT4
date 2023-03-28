@@ -90,6 +90,25 @@ header {
     margin: 5% 2% 5% 2%;
 }
 
+
+/************************************************************************/
+/* HTML Servicios */
+.sectionServicios{
+    margin: 4% 2% 4% 2%;
+    background-color: #FFA3FD;
+    border: 5px dashed #191825;
+    text-align: center;
+}
+.sectionServicios h1 {
+    padding-top: 1%;
+    font-weight: bolder;
+    font-style: italic;
+}
+.sectionServicios p {
+    padding: 1%;
+}
+
+
 /************************************************************************/
 /* HTML Sobre Nosotros */
 .sectionsSN {
@@ -98,17 +117,14 @@ header {
     border: 5px dashed #191825;
     text-align: center;
 }
-
 .sectionsSN h1 {
     padding-top: 1%;
     font-weight: bolder;
     font-style: italic;
 }
-
 .sectionsSN p {
     padding: 1%;
 }
-
 /* END of HTML Sobre Nosotros */
 
 
