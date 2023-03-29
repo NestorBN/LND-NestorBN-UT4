@@ -58,27 +58,25 @@ header {
 }
 
 
-/* Testimonios */
-.testimonials {
+/* Carrusel */
+.textcarrusel {
     text-align: center;
-    background-color: #E384FF;
-    color: #fff;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
-.testimonials h2 {
+.textcarrusel h5 {
     color: black;
 }
 
-.testimonialsImg {
-    border-radius: 30%;
-    width: 15%;
-    margin: 20px;
+.carruselImg {
+    width: 90%;
+    height: 80%;
+    
 }
 
-/* Carrusel */
-.carrusel {
+
+.carruselborder {
     border: 5px groove #191825;
     margin: 5% 2% 5% 2%;
 }
