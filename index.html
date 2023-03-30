@@ -27,6 +27,7 @@
 </head>
 
 <body>
+    <title>TECNOFIT</title>
     <!-- Encabezado -->
     <!-- La paleta de colores a usar es la siguiente: https://colorhunt.co/palette/191825865dffe384ffffa3fd -->
     <header>
@@ -73,38 +74,7 @@
         </div>
     </div>
 
-    <div id="carouselExampleAutoplaying" class="carousel slide carruselborder " data-bs-ride="carousel"
-        data-bs-pause="hover">
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="5000">
-                <!-- Testimonios -->
-                <section class="textcarrusel">
-                    <h2>"Esta aplicación es justo lo que necesitaba"</h2>
-                    <!-- IMAGEN -->
-                    <img class="" src="images/fitimg.jpg">
-                    <em>Beverly, Illinois</em>
-                </section>
-            </div>
-            <div class="carousel-item" data-bs-interval="5000">
-                <section class="textcarrusel">
-                    <h2>"Esta aplicación esta chida"</h2>
-                    <!-- IMAGEN -->
-                    <img class="carruselImg" src="images/fitimg2.jpg">
-                    <em>Jones, Facunda</em>
-                </section>
-            </div>
-        </div>
-        <button class="carousel-control-prev btn btn-transparent" type="button"
-            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden"></span>
-        </button>
-        <button class="carousel-control-next btn btn-transparent" type="button"
-            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden"></span>
-        </button>
-    </div>
+    <!-- Carrusel -->
 
     <div id="carouselExampleCaptions" class="carousel slide carruselborder" data-bs-ride="carousel"
         data-bs-pause="hover" data-bs-keyboard="true">
@@ -118,65 +88,107 @@
         </div>
         <!-- Contenido Carrusel -->
         <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="5000" data-bs-keyboard="true">
+            <div class="carousel-item active" data-bs-interval="5000">
                 <img src="images/RecepcionsCarousel.png" class="carruselImg" alt="RECEPCIÓN">
                 <div class="textcarrusel carousel-caption d-none d-md-block">
                     <h5>RECEPCIÓN</h5>
                 </div>
             </div>
 
-            <div class="carousel-item active" data-bs-interval="5000" data-bs-keyboard="true">
+            <div class="carousel-item active" data-bs-interval="5000">
                 <img src="images/CardioCarousel.png" class="carruselImg" alt="ZONA CARDIO">
                 <div class=" textcarrusel carousel-caption d-none d-md-block">
                     <h5>ZONA CARDIO</h5>
                 </div>
             </div>
 
-            <div class="carousel-item active" data-bs-interval="5000" data-bs-keyboard="true">
+            <div class="carousel-item active" data-bs-interval="5000">
                 <img src="images/MusculacionCarousel.png" class="carruselImg" alt="ZONA MUSCULACIÓN">
                 <div class=" textcarrusel carousel-caption d-none d-md-block">
                     <h5>ZONA MUSCULACIÓN</h5>
                 </div>
             </div>
 
-            <div class="carousel-item active" data-bs-interval="5000" data-bs-keyboard="true">
+            <div class="carousel-item active" data-bs-interval="5000">
                 <img src="images/Musculacion2Carousel.png" class="carruselImg" alt="ZONA MUSCULACIÓN">
                 <div class="textcarrusel carousel-caption d-none d-md-block">
                     <h5>ZONA MUSCULACIÓN</h5>
                 </div>
-                <!-- d-block w-100 -->
             </div>
         </div>
-    </div>
+        <!-- Botónes Carrusel -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">PREVIOUS</span>
+        </button>
+        <button class="carousel-control-next btn btn-transparent" type="button"
+            data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">NEXT</span>
+        </button>
     </div>
 
-    <!-- Botónes Carrusel -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">PREVIOUS</span>
-    </button>
-    <button class="carousel-control-next btn btn-transparent" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">NEXT</span>
-    </button>
-    
-    </div>
+    <div id="carouselExample" class="carousel slide carruselborder" data-bs-ride="carousel"
+        data-bs-pause="hover">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/CardioCarousel.png" class="carruselImg" alt="ZONA CARDIO">
+              </div>
+              <div class="carousel-item active" data-bs-interval="5000">
+                <img src="images/MusculacionCarousel.png" class="carruselImg" alt="ZONA MUSCULACIÓN">
+              </div>>
+              <div class="carousel-item active" data-bs-interval="5000">
+                <img src="images/Musculacion2Carousel.png" class="carruselImg" alt="ZONA MUSCULACIÓN">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    <!-- data-bs-target="#carouselExampleCaptions" -->
     <!-- Pié de página -->
-    <div class="container-fluid pieDpagina">
-        <footer>
-            <ul class=" nav justify-content-center pb-3">
-                <li><a href="https://twitter.com/?lang=es" class="px-3 text-light"><i
-                            class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="https://es-es.facebook.com/" class="px-3 text-light"><i
-                            class="fa-brands fa-facebook"></i></a></li>
-                <li><a href="https://www.instagram.com/" class="px-3 text-light"><i
-                            class="fa-brands fa-instagram"></i></a></li>
-                <l><a href="mailto:nestorbeniteznavarro@alumno.ieselrincon.es" class="px-3 text-light"><i
-                            class="fa-regular fa-envelope"></i></a></li>
-            </ul>
-            <p class="text-center text-light">&copy; 2023 Desarrolada en LND</p>
-            <p class="text-center text-light">Made by <u><a
-                        href="https://github.com/NestorBN/LND-NestorBN-UT4">WEB-NBN</a></u></p>
+    <div class="container-fluid">
+        <footer class="row py-5 my-5 pieDpagina">
+            <div class="mb-1 col-md-4 col-sm-6">
+                <img src="images/icon2.png">
+                <p class=" texthead">&copy; 2023 Desarrolada en LND</p>
+                <p class=" texthead">Developed <u><a href="https://github.com/NestorBN/LND-NestorBN-UT4"><i
+                                class="fa-brands fa-github iconfoot"></i></a></u></p>
+            </div>
+            <div class="mb-1 col-md-4 col-sm-6">
+                <h5 class="text-center texthead">Sections</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 textfoot text-center">Inicio</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="Servicios.html"
+                            class="nav-link p-0 textfoot text-center">Servicios</a></li>
+                    <li class="nav-item mb-2"><a href="Precios.html"
+                            class="nav-link p-0 textfoot text-center">Suscripciones</a></li>
+                    <li class="nav-item mb-2"><a href="Sobrenosotros.html"
+                            class="nav-link p-0 textfoot text-center">Sobrenosotros</a></li>
+                </ul>
+            </div>
+
+            <div class="mb-1 col-md-4 col-sm-6">
+                <h5 class="text-center texthead">Social Media</h5>
+                <ul class=" nav justify-content-center pb-3">
+                    <li><a href="https://twitter.com/?lang=es" class="px-3 text-light text-center"><i
+                                class="fa-brands fa-twitter iconfoot"></i></a></li>
+                    <li><a href="https://es-es.facebook.com/" class="px-3 text-light text-center"><i
+                                class="fa-brands fa-facebook iconfoot"></i></a></li>
+                    <li><a href="https://www.instagram.com/" class="px-3 text-light text-center"><i
+                                class="fa-brands fa-instagram iconfoot"></i></a></li>
+                    <l><a href="https://www.tiktok.com/es/" class="px-3 text-light"><i
+                                class="fa-brands fa-tiktok iconfoot"></i></a></li>
+
+                </ul>
+            </div>
         </footer>
     </div>
 </body>
