@@ -65,19 +65,13 @@ header {
     padding-bottom: 5%;
 }
 
-.textcarrusel h5 {
-    color: black;
-}
-
 .carruselImg {
     width: 100%;
     
 }
-
-
 .carruselborder {
     border: 5px groove #191825;
-    margin: 5% 2% 5% 2%;
+    margin: 6% 3% 6% 3%;
 }
 
 
