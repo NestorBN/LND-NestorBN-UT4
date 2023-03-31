@@ -7,6 +7,7 @@ header {
     width: 100%;
     position: fixed;
     background-color: #191825;
+    z-index:4 ;
 }
 
 .divseparador {
