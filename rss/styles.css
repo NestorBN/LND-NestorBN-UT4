@@ -1,0 +1,197 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: #191825;
+    z-index:4 ;
+}
+
+.divseparador {
+    height: 86px;
+}
+
+/* NAVBAR */
+
+
+.nameapp {
+    font-size: calc(2.5em);
+    background: linear-gradient(180deg, #E384FF 50%, #9470ff, #8a63ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #E384FF;
+}
+
+/* Icons NAVBAR */
+.iconnavbar {
+    color: #FFA3FD;
+    padding-right: 3px;
+}
+
+.iconnavbar:hover {
+    color: #da79d8;
+}
+
+/* Buttons */
+.wherebutton {
+    background: linear-gradient(180deg, #191825 0%, #9470ff 49%, #865DFF 50%, #191825 100%);
+    background-size: 1px 100px;
+    transition: all .3s;
+    color: #E384FF;
+    text-align: center;
+}
+
+.section1 {
+    text-align: center;
+    padding: 5%;
+    background-color: #FFA3FD;
+}
+
+.sectionwords {
+    text-align: center;
+}
+
+.sectionwords h1 {
+    font-size: calc(2.5em);
+}
+
+
+/* Carrusel */
+.textcarrusel {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.carruselImg {
+    width: 100%;
+    
+}
+.carruselborder {
+    border: 5px groove #191825;
+    margin: 6% 3% 6% 3%;
+}
+
+
+/************************************************************************/
+/* HTML Servicios */
+.sectionServicios {
+    margin: 4% 2% 4% 2%;
+    background-color: #FFA3FD;
+    border: 5px dashed #191825;
+    text-align: center;
+}
+
+.sectionServicios h1 {
+    padding-top: 1%;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.sectionServicios p {
+    padding: 1%;
+}
+
+
+/************************************************************************/
+/* HTML Sobre Nosotros */
+.sectionsSN {
+    margin: 4% 2% 4% 2%;
+    background-color: #FFA3FD;
+    border: 5px dashed #191825;
+    text-align: center;
+}
+
+.sectionsSN h1 {
+    padding-top: 1%;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.sectionsSN p {
+    padding: 1%;
+}
+/* END of HTML Sobre Nosotros */
+
+
+/************************************************************************/
+/* HTML PRECIOS */
+/* Cards */
+.card {
+    text-align: center;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFA3FD;
+    border: 5px ridge #191825;
+    max-width: 18rem;
+}
+
+.card-body {
+    border: 5px ridge #191825;
+    background-color: #FFA3FD;
+}
+
+.cardborder {
+    color: #191825;
+}
+
+.cardbutton {
+    background: radial-gradient(#FFA3FD 13%, #E384FF 50%, #865DFF 90%);
+    background-size: 1px 100px;
+    transition: all .3s;
+    border-radius: 5%;
+}
+
+.cardbutton:hover {
+    background-position: 0 -50px;
+    transition: all .3s;
+}
+
+/* END of HTML PRECIOS */
+
+/************************************************************************/
+/* Footer */
+.pieDpagina {
+    margin-top: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #191825;
+    color: white;
+}
+
+footer img {
+    border-radius: 10%;
+}
+
+.textfoot {
+    color: #E384FF;
+}
+.texthead{
+    color: #E384FF;
+    font-weight: bold;
+}
+.textfoot:hover {
+    transform: scale(1.1);
+    color: #E384FF;
+}
+
+/* Icons Footer */
+.iconfoot {
+    background: linear-gradient(180deg, #E384FF 50%, #9470ff, #8a63ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #E384FF;
+    padding-right: 3px;
+    transition: transform 0.3s;
+}
+.iconfoot:hover {
+    transform: scale(1.1);
+}
+/* RSS */
+ul {
+    list-style: none;
+}
