@@ -1,43 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
-
 <channel>
-  <title>NESTORBNRSS1</title>
+  <title>NESTORBNRSS1 Page</title>
   <link>https://nestorbn.github.io/LND-NestorBN-UT4/</link>
-  <description>Lorem Ipsum es simplemente el texto de relleno de las
-        imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año
-        1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)
-        desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
-        No sólo sobrevivió 500 años, sino que tambien ingresó como texto de
-        relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la
-        creación de las hojas "Letraset", las cuales contenian
-        pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el
-        cual incluye versiones de Lorem Ipsum.</description>
-    <item>
+  <item>
     <title>RSS Tutorial</title>
-    <link>https://nestorbn.github.io/LND-NestorBN-UT4/</link>
+    <link>https://nestorbn.github.io/LND-NestorBN-UT4/rss/rss2.xml</link>
     <description>Lorem Ipsum es simplemente el texto de relleno de las
-        imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año
-        1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)
-        desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
-        No sólo sobrevivió 500 años, sino que tambien ingresó como texto de
-        relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la
-        creación de las hojas "Letraset", las cuales contenian
-        pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el
-        cual incluye versiones de Lorem Ipsum.</description>
+          imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año
+          1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)
+          desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
+          No sólo sobrevivió 500 años, sino que tambien ingresó como texto de
+          relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la
+          creación de las hojas "Letraset", las cuales contenian
+          pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el
+          cual incluye versiones de Lorem Ipsum.</description>
+    <enclosure url="https://statics-maker.llt-services.com/lpa/images/2023/02/25/xlarge/a9126c17-27c9-4f4c-9376-36240592f7cc.jpg"
+      length="78645" type="image/jpg" />
   </item>
   <item>
     <title>XML Tutorial</title>
-    <link>https://nestorbn.github.io/LND-NestorBN-UT4/</link>
+    <category>News</category>
+    <link>https://nestorbn.github.io/LND-NestorBN-UT4/rss/rss2.xml</link>
     <description>Lorem Ipsum es simplemente el texto de relleno de las
-        imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año
-        1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)
-        desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
-        No sólo sobrevivió 500 años, sino que tambien ingresó como texto de
-        relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la
-        creación de las hojas "Letraset", las cuales contenian
-        pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el
-        cual incluye versiones de Lorem Ipsum.</description>
+          imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año
+          1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)
+          desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
+          No sólo sobrevivió 500 años, sino que tambien ingresó como texto de
+          relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la
+          creación de las hojas "Letraset", las cuales contenian
+          pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el
+          cual incluye versiones de Lorem Ipsum.</description>
+    <enclosure url="https://statics-maker.llt-services.com/lpa/images/2023/02/25/xlarge/a9126c17-27c9-4f4c-9376-36240592f7cc.jpg"
+      length="78645" type="image/jpg" />
   </item>
 </channel>
+
 </rss>
